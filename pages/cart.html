@@ -78,6 +78,71 @@
     </header>
     <!-- header ends -->
 
+    <main class="container main">
+        <h1 class="fs-l my-2 text-centre">My Cart</h1>
+  
+        <p class="fs-md my-2 text-centre">
+          your cart is empty till now, <a class="link" href="#">Shop Now</a>
+        </p>
+
+        <div
+        class="align-i-ctr-md flex flex-wrap flex-col-reverse-md justify-c-sa my-3"
+      >
+        <ul class="flex flex-column p-2">
+          <!-- products -->
+          <li class="mb-1 shadow-light">
+            <div class="card cart-card">
+              <img
+                loading="lazy"
+                class="max-w-20"
+                src="/assets/joker-mask.jpg"
+                alt=""
+              />
+
+              <div class="flex flex-column p-3 w-25">
+                <h3 class="fs-s">Joker Mask</h3>
+
+                <div class="my-1">
+                  <span class="price fs-s ml-0">
+                    <strong>₹416</strong>
+                  </span>
+                  <span class="discount-price">₹1,780</span>
+                </div>
+
+                <span class="discount-percent ml-0"
+                  ><strong>76% off</strong></span
+                >
+
+                <div class="alg-i-ctr flex fs-s fw-bold">
+                  Quantity:
+
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <input
+                    class="cart-card input"
+                    type="number"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+
+                <button class="btn error-btn-outline mx-0 py-0p5 w-100pct">
+                  Remove from Cart
+                </button>
+                <button class="btn error-btn-solid mx-0 py-0p5 w-100pct">
+                  Move to Wishlist
+                </button>
+              </div>
+            </div>
+          </li>
+          
+
+
+
     <!-- footer starts -->
     <footer class="min-h-15 bg-red">
       <div class="container flex flex-wrap justify-c-sa py-1p5 px-2">
