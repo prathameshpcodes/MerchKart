@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>🐱‍👤 MerchKart | Cart</title>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c565ae8bc2.js"
+      crossorigin="anonymous"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Space UI Library -->
+    <link
+      rel="stylesheet"
+      href="https://space-ui-components.netlify.app/all-css/main.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/app.css" />
+    <link rel="stylesheet" href="/css/pages/index.css" />
+  </head>
+
+  <body>
+    <!-- header starts -->
+    <header>
+      <!-- name & logo -->
+      <nav class="container flex justify-c-sb alg-i-ctr px-2 py-1">
+        <div class="navbar-align">
+          <!-- logo -->
+
+          <!-- <i class="fa-solid fa-bat text-red"></i> -->
+
+          <a class="store-name" href="/index.html">
+            <h2 class="f-logofont">🐱‍👤Merch-Kart</h2>
+          </a>
+        </div>
+
+        <!-- search bar -->
+        <form class="navbar-search">
+          <input type="text" placeholder="search for product" />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+        <div class="navbar-align">
+          <button
+            id="btn-login"
+            class="navbar-btn-log translate-y translate-y-above"
+          >
+            <i class="fa-solid fa-right-to-bracket"></i>
+            Log In
+          </button>
+
+          <a
+            href="/pages/wishlist.html"
+            class="badge-btn mx-2 text-white translate-y"
+          >
+            <i class="fas fa-heart"></i>
+            <span class="badge-count bg-red">0</span>
+          </a>
+
+          <a
+            href="/pages/cart.html"
+            class="badge-btn mr-1 text-white translate-y"
+          >
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge-count bg-red">0</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- header ends -->
+
+    <main class="container main">
+      <h1 class="fs-l my-2 text-centre">My Cart</h1>
+
+      <p class="fs-md my-2 text-centre">
+        your cart is empty till now, <a class="link" href="#">Shop Now</a>
+      </p>
+
+      <div
+        class="align-i-ctr-md flex flex-wrap flex-col-reverse-md justify-c-sa my-3"
+      >
+        <ul class="flex flex-column p-2">
+          <!-- products -->
+          <li class="mb-1 shadow-light">
+            <div class="card cart-card">
+              <img
+                loading="lazy"
+                class="max-w-20"
+                src="/assets/joker-mask.jpg"
+                alt=""
+              />
+
+              <div class="flex flex-column p-3 w-25">
+                <h3 class="fs-s">Joker Mask</h3>
+
+                <div class="my-1">
+                  <span class="price fs-s ml-0">
+                    <strong>₹416</strong>
+                  </span>
+                  <span class="discount-price">₹1,780</span>
+                </div>
+
+                <span class="discount-percent ml-0"
+                  ><strong>76% off</strong></span
+                >
+
+                <div class="alg-i-ctr flex fs-s fw-bold">
+                  Quantity:
+
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <input
+                    class="cart-card input"
+                    type="number"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+
+                <button class="btn error-btn-outline mx-0 py-0p5 w-100pct">
+                  Remove from Cart
+                </button>
+                <button class="btn error-btn-solid mx-0 py-0p5 w-100pct">
+                  Move to Wishlist
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <li class="mb-1 shadow-light">
+            <div class="card cart-card">
+              <img
+                loading="lazy"
+                class="max-w-20"
+                src="/assets/spider-man-into-the-spiderverse-anyone-can-wear-the-mask-backpack-india-700x700.jpg"
+                alt=""
+              />
+
+              <div class="flex flex-column p-3 w-25">
+                <h3 class="fs-s">SpiderMan Backpack</h3>
+
+                <div class="my-1">
+                  <span class="price fs-s ml-0">
+                    <strong>₹416</strong>
+                  </span>
+                  <span class="discount-price">₹1,780</span>
+                </div>
+
+                <span class="discount-percent ml-0"
+                  ><strong>76% off</strong></span
+                >
+
+                <div class="alg-i-ctr flex fs-s fw-bold">
+                  Quantity:
+
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <input
+                    class="cart-card input"
+                    type="number"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+
+                <button class="btn error-btn-outline mx-0 py-0p5 w-100pct">
+                  Remove from Cart
+                </button>
+                <button class="btn error-btn-solid mx-0 py-0p5 w-100pct">
+                  Move to Wishlist
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <li class="mb-1 shadow-light">
+            <div class="card cart-card">
+              <img
+                loading="lazy"
+                class="max-w-20"
+                src="/assets/demo-product-1.jpg"
+                alt=""
+              />
+
+              <div class="flex flex-column p-3 w-25">
+                <h3 class="fs-s">Survey Scouts Pin</h3>
+
+                <div class="my-1">
+                  <span class="price fs-s ml-0">
+                    <strong>₹416</strong>
+                  </span>
+                  <span class="discount-price">₹1,780</span>
+                </div>
+
+                <span class="discount-percent ml-0"
+                  ><strong>76% off</strong></span
+                >
+
+                <div class="alg-i-ctr flex fs-s fw-bold">
+                  Quantity:
+
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <input
+                    class="cart-card input"
+                    type="number"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="cart-btn-qty">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+
+                <button class="btn error-btn-outline mx-0 py-0p5 w-100pct">
+                  Remove from Cart
+                </button>
+                <button class="btn error-btn-solid mx-0 py-0p5 w-100pct">
+                  Move to Wishlist
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- products end's -->
+
+        <!-- total checkout -->
+        <div class="p-2">
+          <div class="card cart-price-card shadow-light">
+            <h3 class="cart-price-details-text">PRICE DETAILS</h3>
+
+            <div class="align-i-ctr flex justify-c-sb mt-1">
+              <span class="fw-bold">Price (3 items)</span>
+              <span>₹ 4,478</span>
+            </div>
+            <div class="align-i-ctr flex justify-c-sb my-1">
+              <span class="fw-bold">Discount</span> <span>₹ 2,984</span>
+            </div>
+            <div class="align-i-ctr flex justify-c-sb mb-1">
+              <span class="fw-bold">Delivery Charges</span>
+              <span>₹ 500</span>
+            </div>
+
+            <div class="cart-total-amt-text">
+              <h2 class="fs-1p7">TOTAL AMOUNT</h2>
+              <span>₹ 1,994</span>
+            </div>
+
+            <p class="my-1">You will save ₹ 2,984 on this purchase</p>
+
+            <button class="btn btn-add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer starts -->
+    <footer class="min-h-15 bg-red">
+      <div class="container flex flex-wrap justify-c-sa py-1p5 px-2">
+        <div>
+          <div class="fs-s fw-bold my-1 text-white">Quick Links</div>
+
+          <ul class="mx-1">
+            <li><a class="link text-white fs-s" href="/index.html">Home</a></li>
+            <li class="my-1">
+              <a class="link text-white fs-s" href="/pages/product.html"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a class="link text-white fs-s" href="/pages/cart.html"
+                >My Cart</a
+              >
+            </li>
+            <li class="my-1">
+              <a class="link text-white fs-s" href="/pages/wishlist.html"
+                >My Wish List</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="fs-s fw-bold my-1 text-white">Connect with me</div>
+
+          <ul class="flex">
+            <li class="mx-1 translate-y">
+              <a
+                href="https://github.com/prathameshpcodes/"
+                class="fs-s link"
+                target="_blank"
+              >
+                <i class="fab fa-github text-black"></i>
+              </a>
+            </li>
+            <li class="mx-1 translate-y">
+              <a
+                href="https://www.linkedin.com/in/prathameshpcodes/"
+                target="_blank"
+                class="fs-s link"
+              >
+                <i class="fab fa-linkedin-in text-black"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+  </body>
+</html>
