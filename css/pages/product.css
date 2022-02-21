@@ -1,0 +1,28 @@
+.filter-container {
+  background: var(--color-white);
+
+  box-shadow: 0 0.1rem 0.4rem var(--color-slate-200);
+  height: 100vh;
+  overflow-y: auto;
+  padding: 3rem 0;
+  width: 24rem;
+}
+
+
+:is(.filter-container, .filter-md-container) > div {
+    align-items: center;
+    border-bottom: thin solid var(--color-slate-200);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  :is(.filter-container, .filter-md-container) > ul:not(.p-2) {
+    border-bottom: thin solid var(--color-slate-200);
+    padding: 2rem;
+  }
+  
+  .btn-md-filter,
+  .filter-md-container {
+    display: none;
+  }
