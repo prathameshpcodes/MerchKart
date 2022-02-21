@@ -187,6 +187,233 @@
           </ul>
       </aside>
 
+      <!-- aside ends -->
+
+      <main class="main">
+        <button
+          class="btn-md-filter filter-md-position shadow-light shadow-slate-hover"
+        >
+          <i class="fas fa-filter"></i>
+        </button>
+
+        <div class="filter-md-container filter-md-position">
+          <div>
+            <h2 class="fs-2">Filters</h2>
+            <div>
+              <button class="bg-unset border-none fw-normal link mx-1">
+                Clear All
+              </button>
+              <button
+                id="btn-close-md-filter"
+                class="bg-unset border-none fw-normal link"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+
+          <ul>
+            <h3 class="mb-2">Sort by</h3>
+
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr" for="md-low-to-high">
+                <input
+                  class="cursor-ptr mr-1"
+                  type="radio"
+                  name="price"
+                  id="md-low-to-high"
+                  value="Low to High"
+                />
+                Price - Low to High
+              </label>
+            </li>
+
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr" for="md-high-to-low">
+                <input
+                  class="cursor-ptr mr-1"
+                  type="radio"
+                  name="price"
+                  id="md-high-to-low"
+                  value="High to Low"
+                />
+                Price - High to Low
+              </label>
+            </li>
+          </ul>
+
+          <ul>
+            <h3 class="mb-2">Category</h3>
+
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr" for="md-mask">
+                <input
+                  class="cursor-ptr mr-1"
+                  type="checkbox"
+                  name="category"
+                  id="md-mask"
+                  value="mask"
+                />
+                Mask
+              </label>
+            </li>
+
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr" for="md-backpack">
+                <input
+                  class="cursor-ptr mr-1"
+                  type="checkbox"
+                  name="category"
+                  id="md-mens-backpack"
+                  value="backpack"
+                />
+                Backpack
+              </label>
+            </li>
+
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr" for="md-kids-headset">
+                <input
+                  class="cursor-ptr mr-1"
+                  type="checkbox"
+                  name="category"
+                  id="md-headset"
+                  value="headset"
+                />
+                Headset
+              </label>
+            </li>
+          </ul>
+
+          <ul class="p-2">
+            <h3 class="mb-2">Ratings</h3>
+
+            <li class="flex justify-c-sb my-0p5 ml-1">
+              <span class="fs-1p5 fw-bold">1</span>
+              <span class="fs-1p5 fw-bold">2</span>
+              <span class="fs-1p5 fw-bold">3</span>
+              <span class="fs-1p5 fw-bold">4</span>
+              <span class="fs-1p5 fw-bold">5</span>
+            </li>
+
+            <li class="my-0p5 ml-1">
+              <input
+                type="range"
+                min="1"
+                max="5"
+                value="2"
+                step="0.1"
+                class="cursor-ptr w-100pct"
+              />
+            </li>
+          </ul>
+        </div>
+
+
+        <section class="p-3">
+            <h1 class="fs-l my-2 mx-0p5">Mask</h1>
+  
+            <ul class="flex flex-wrap my-3 gap-1">
+  
+  
+              <li class="m-1">
+                  <div class="card card-vertical  shadow-light w-24">
+                      <div class="card-vertical-header">
+                          <button class="ml-auto card-icon-btn ">
+                              <i class="fa-regular fa-heart m-auto"></i>
+                          </button>
+                      </div>
+                      <img class="card-vertical-image" src="/assets/akatsuki-cloud-cotton-face-mask-india-2-700x700.jpg" alt="">
+                      <h1 class="card-head">Akatsuki Mask</h1>
+                      <p class="card-text h-7 pb-1">
+                          Akatsuki Face Mask for all beloved Naruto Fans.
+                        </p>
+                      
+                  
+                      <div class="card-vertical-footer">
+                          <span class="price">₹139.00</span>
+                          <span class="discount-price">₹1000.00</span>
+                          <span class="discount-percent">90%</span>
+                      </div>
+                  <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+                </li>
+  
+                <li class="m-1">
+                  <div class="card card-vertical  shadow-light w-24">
+                      <div class="card-vertical-header">
+                          <button class="ml-auto card-icon-btn ">
+                              <i class="fa-solid fa-heart m-auto"></i>
+                          </button>
+                      </div>
+                      <img class="card-vertical-image" src="/assets/joker-mask.jpg" alt="">
+                      <h1 class="card-head">Joker Mask</h1>
+                      <p class="card-text h-7 pb-1">
+                          Joker Premium Face Mask
+                        </p>
+                      
+                  
+                      <div class="card-vertical-footer">
+                          <span class="price">₹139.00</span>
+                          <span class="discount-price">₹1000.00</span>
+                          <span class="discount-percent">90%</span>
+                      </div>
+                  <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+                </li>
+              
+                <li class="m-1">
+                  <div class="card card-vertical  shadow-light w-24">
+                      <div class="card-vertical-header">
+                          <button class="ml-auto card-icon-btn ">
+                              <i class="fa-solid fa-heart m-auto"></i>
+                          </button>
+                      </div>
+                      <img class="card-vertical-image" src="/assets/spider-man-into-the-spiderverse-anyone-can-wear-the-mask-backpack-india-700x700.jpg" alt="">
+                      <h1 class="card-head">Spiderman Backpack</h1>
+                      <p class="card-text h-7 pb-1">
+                          SpiderMan Into The Spiderverse Special Edition BagPack
+                        </p>
+                      
+                  
+                      <div class="card-vertical-footer">
+                          <span class="price">₹139.00</span>
+                          <span class="discount-price">₹1000.00</span>
+                          <span class="discount-percent">90%</span>
+                      </div>
+                  <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+                </li>
+  
+                <li class="m-1">
+                  <div class="card card-vertical  shadow-light w-24">
+                      <div class="card-vertical-header">
+                          <button class="ml-auto card-icon-btn ">
+                              <i class="fa-solid fa-heart m-auto"></i>
+                          </button>
+                      </div>
+                      <img class="card-vertical-image" src="/assets/star-wars-trooper-art-wireless-headphones-india-1-700x700.jpg" alt="">
+                      <h1 class="card-head">Starwars Headset</h1>
+                      <p class="card-text h-7 pb-1">
+                          Start-Wars StormTrooper Special Edition Headset
+                        </p>
+                      
+                  
+                      <div class="card-vertical-footer">
+                          <span class="price">₹139.00</span>
+                          <span class="discount-price">₹1000.00</span>
+                          <span class="discount-percent">90%</span>
+                      </div>
+                  <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+                </li>
+  
+              
+            
+          </ul>
+          
+        </section>
+
+
+
+
+
 
 
       <!-- footer starts -->
