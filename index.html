@@ -25,5 +25,56 @@
     <link rel="stylesheet" href="/css/pages/cart.css" />
   </head>
 
-  <body></body>
+  <body>
+    <!-- header starts -->
+    <header>
+      <!-- name & logo -->
+      <nav class="container flex justify-c-sb alg-i-ctr px-2 py-1">
+        <div class="navbar-align">
+          <!-- logo -->
+
+          <!-- <i class="fa-solid fa-bat text-red"></i> -->
+
+          <a class="store-name" href="/index.html">
+            <h2 class="f-logofont">🐱‍👤Merch-Kart</h2>
+          </a>
+        </div>
+
+        <!-- search bar -->
+        <form class="navbar-search">
+          <input type="text" placeholder="search for product" />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+        <div class="navbar-align">
+          <button
+            id="btn-login"
+            class="navbar-btn-log translate-y translate-y-above"
+          >
+            <i class="fa-solid fa-right-to-bracket"></i>
+            Log In
+          </button>
+
+          <a
+            href="/pages/wishlist.html"
+            class="badge-btn mx-2 text-white translate-y"
+          >
+            <i class="fas fa-heart"></i>
+            <span class="badge-count bg-red">0</span>
+          </a>
+
+          <a
+            href="/pages/cart.html"
+            class="badge-btn mr-1 text-white translate-y"
+          >
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge-count bg-red">0</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- header ends -->
+  </body>
 </html>

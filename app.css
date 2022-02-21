@@ -1,0 +1,25 @@
+/* importing all the files */
+@import url("/css/pages/index.css");
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.main {
+  color: var(--color-black);
+  min-height: 85vh;
+  padding: 3rem;
+}
+
+.hero-img-wrapper {
+  border-radius: 0.5rem;
+}
+
+.category-card {
+  cursor: pointer;
+  flex-direction: column;
+  width: 30rem;
+}
