@@ -53,9 +53,9 @@
 }
 
 .btn-add-to-cart {
-  background: var(--color-red);
+  background: var(--color-white);
 
   font-weight: bold;
   margin: 0;
-  color: var(--color-white);
+  color: rgb(239, 68, 68);
 }
