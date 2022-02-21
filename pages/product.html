@@ -76,5 +76,165 @@
         </nav>
       </header>
       <!-- header ends -->
+
+<!-- aside starts -->
+<div class="container flex min-h-85 text-black">
+    <aside class="filter-container shrink-0">
+        <div>
+          <h2 class="fs-md">Filters</h2>
+          <button class="bg-unset border-none fw-normal fs-md link">
+            Clear All
+          </button>
+        </div>
+
+        <!-- sort by -->
+        <ul>
+            <h3 class="mb-2 fs-md">Sort by</h3>
+  
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr fs-s" for="low-to-high">
+                <input
+                  class="cursor-ptr mr-1 fs-s"
+                  type="radio"
+                  name="price"
+                  id="low-to-high"
+                  value="Low to High"
+                />
+                Price - Low to High
+              </label>
+            </li>
+  
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr fs-s" for="high-to-low">
+                <input
+                  class="cursor-ptr mr-1 fs-s"
+                  type="radio"
+                  name="price"
+                  id="high-to-low"
+                  value="High to Low"
+                />
+                Price - High to Low
+              </label>
+            </li>
+          </ul>
+  
+          <!-- category -->
+          <ul>
+            <h3 class="mb-2 fs-md">Category</h3>
+  
+            <li class="my-0p5 ml-1 fs-s">
+              <label class="cursor-ptr" for="mask">
+                <input
+                  class="cursor-ptr mr-1 fs-s"
+                  type="checkbox"
+                  name="category"
+                  id="mask"
+                  value="mask"
+                />
+                Mask
+              </label>
+            </li>
+  
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr fs-s" for="backpack">
+                <input
+                  class="cursor-ptr mr-1"
+                  type="checkbox"
+                  name="category"
+                  id="backpack"
+                  value="backpack"
+                />
+                BackPack
+              </label>
+            </li>
+  
+            <li class="my-0p5 ml-1">
+              <label class="cursor-ptr fs-s" for="Headset">
+                <input
+                  class="cursor-ptr mr-1"
+                  type="checkbox"
+                  name="category"
+                  id="headset"
+                  value="headset"
+                />
+                Headset
+              </label>
+            </li>
+          </ul>
+
+          <!-- rating -->
+        <ul class="">
+            <h3 class="mb-2 fs-md">Ratings</h3>
+  
+            <li class="flex justify-c-sb my-0p5 ml-1">
+              <span class="fs-s fw-bold">1</span>
+              <span class="fs-s fw-bold">2</span>
+              <span class="fs-s fw-bold">3</span>
+              <span class="fs-s fw-bold">4</span>
+              <span class="fs-s fw-bold">5</span>
+            </li>
+  
+            <li class="my-0p5 ml-1">
+              <input
+                type="range"
+                min="1"
+                max="5"
+                value="2"
+                step="0.1"
+                class="cursor-ptr w-100pct"
+              />
+            </li>
+          </ul>
+      </aside>
+
+
+
+      <!-- footer starts -->
+    <footer class="min-h-15 bg-red">
+
+        <div class="container flex flex-wrap justify-c-sa py-1p5 px-2">
+            <div>
+              <div class="fs-s fw-bold my-1 text-white">Quick Links</div>
+    
+              <ul class="mx-1">
+                <li><a class="link text-white fs-s " href="index.html">Home</a></li>
+                <li class="my-1">
+                  <a class="link text-white fs-s" href="/pages/product.html">Products</a>
+                </li>
+                <li><a class="link text-white fs-s" href="/pages/cart.html">My Cart</a></li>
+                <li class="my-1">
+                  <a class="link text-white fs-s" href="/pages/wishlist.html">My Wish List</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div>
+              <div class="fs-s fw-bold my-1 text-white">Connect with me</div>
+    
+              <ul class="flex">
+                <li class="mx-1 translate-y">
+                  <a
+                    href="https://github.com/prathameshpcodes/"
+                    class="fs-s link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github text-white"></i>
+                  </a>
+                </li>
+                <li class="mx-1 translate-y">
+                  <a
+                    href="https://www.linkedin.com/in/prathameshpcodes/"
+                    target="_blank"
+                    class="fs-s link"
+                  >
+                    <i class="fab fa-linkedin-in text-white"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+    </footer>
+    <!-- footer ends -->
   </body>
 </html>
