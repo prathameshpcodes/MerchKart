@@ -1,6 +1,7 @@
 /* importing all the files */
 @import url("/css/pages/index.css");
 @import url("/css/pages/product.css");
+@import url("/css/pages/cart.css");
 
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
