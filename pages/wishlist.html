@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🐱‍👤MerchKart | Wishlist</title>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c565ae8bc2.js"
+      crossorigin="anonymous"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Space UI Library -->
+    <link
+      rel="stylesheet"
+      href="https://space-ui-components.netlify.app/all-css/main.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/app.css" />
+    <link rel="stylesheet" href="/css/pages/index.css" />
+  </head>
+
+  <body>
+    <!-- header starts -->
+    <header>
+      <!-- name & logo -->
+      <nav class="container flex justify-c-sb alg-i-ctr px-2 py-1">
+        <div class="navbar-align">
+          <!-- logo -->
+
+          <!-- <i class="fa-solid fa-bat text-red"></i> -->
+
+          <a class="store-name" href="/index.html">
+            <h2 class="f-logofont">🐱‍👤Merch-Kart</h2>
+          </a>
+        </div>
+
+        <!-- search bar -->
+        <form class="navbar-search">
+          <input type="text" placeholder="search for product" />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+        <div class="navbar-align">
+            <button id="btn-login" class="navbar-btn-log translate-y translate-y-above">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Log In
+            </button>
+
+          <a
+            href="/pages/wishlist.html"
+            class="badge-btn mx-2 text-white translate-y"
+          >
+            <i class="fas fa-heart"></i>
+            <span class="badge-count bg-red">0</span>
+          </a>
+
+          <a
+            href="/pages/cart.html"
+            class="badge-btn mr-1 text-white translate-y"
+          >
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge-count bg-red">0</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- header ends -->
+
+    <main class="container main">
+      <h1 class="fs-l my-2 text-centre">My Wishlist</h1>
+
+      <p class="fs-md my-2 text-centre">
+        your wishlist is empty till now, <a class="link" href="#">Shop Now</a>
+      </p>
+
+      <ul class="flex flex-wrap justify-c-sa my-3 gap-1">
+
+
+        <li class="m-1">
+            <div class="card card-vertical  shadow-light w-24">
+                <div class="card-vertical-header">
+                    <button class="ml-auto card-icon-btn ">
+                        <i class="fa-regular fa-heart m-auto"></i>
+                    </button>
+                </div>
+                <img class="card-vertical-image" src="/assets/akatsuki-cloud-cotton-face-mask-india-2-700x700.jpg" alt="">
+                <h1 class="card-head">Akatsuki Mask</h1>
+                <p class="card-text h-7 pb-1">
+                    Akatsuki Face Mask for all beloved Naruto Fans.
+                  </p>
+                
+            
+                <div class="card-vertical-footer">
+                    <span class="price">₹139.00</span>
+                    <span class="discount-price">₹1000.00</span>
+                    <span class="discount-percent">90%</span>
+                </div>
+            <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+          </li>
+
+          <li class="m-1">
+            <div class="card card-vertical  shadow-light w-24">
+                <div class="card-vertical-header">
+                    <button class="ml-auto card-icon-btn ">
+                        <i class="fa-solid fa-heart m-auto"></i>
+                    </button>
+                </div>
+                <img class="card-vertical-image" src="/assets/joker-mask.jpg" alt="">
+                <h1 class="card-head">Joker Mask</h1>
+                <p class="card-text h-7 pb-1">
+                    Joker Premium Face Mask
+                  </p>
+                
+            
+                <div class="card-vertical-footer">
+                    <span class="price">₹139.00</span>
+                    <span class="discount-price">₹1000.00</span>
+                    <span class="discount-percent">90%</span>
+                </div>
+            <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+          </li>
+        
+          <li class="m-1">
+            <div class="card card-vertical  shadow-light w-24">
+                <div class="card-vertical-header">
+                    <button class="ml-auto card-icon-btn ">
+                        <i class="fa-solid fa-heart m-auto"></i>
+                    </button>
+                </div>
+                <img class="card-vertical-image" src="/assets/spider-man-into-the-spiderverse-anyone-can-wear-the-mask-backpack-india-700x700.jpg" alt="">
+                <h1 class="card-head">Spiderman Backpack</h1>
+                <p class="card-text h-7 pb-1">
+                    SpiderMan Into The Spiderverse Special Edition BagPack
+                  </p>
+                
+            
+                <div class="card-vertical-footer">
+                    <span class="price">₹139.00</span>
+                    <span class="discount-price">₹1000.00</span>
+                    <span class="discount-percent">90%</span>
+                </div>
+            <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+          </li>
+
+          <li class="m-1">
+            <div class="card card-vertical  shadow-light w-24">
+                <div class="card-vertical-header">
+                    <button class="ml-auto card-icon-btn ">
+                        <i class="fa-solid fa-heart m-auto"></i>
+                    </button>
+                </div>
+                <img class="card-vertical-image" src="/assets/star-wars-trooper-art-wireless-headphones-india-1-700x700.jpg" alt="">
+                <h1 class="card-head">Starwars Headset</h1>
+                <p class="card-text h-7 pb-1">
+                    Start-Wars StormTrooper Special Edition Headset
+                  </p>
+                
+            
+                <div class="card-vertical-footer">
+                    <span class="price">₹139.00</span>
+                    <span class="discount-price">₹1000.00</span>
+                    <span class="discount-percent">90%</span>
+                </div>
+            <button class="btn btn-add-to-cart fs-s">Add to Cart</button>
+          </li>
+
+        
+      
+    </ul>
+
+    </main>
+
+    <!-- footer starts -->
+    <footer class="min-h-15 bg-red">
+      <div class="container flex flex-wrap justify-c-sa py-1p5 px-2">
+        <div>
+          <div class="fs-s fw-bold my-1 text-white">Quick Links</div>
+
+          <ul class="mx-1">
+            <li><a class="link text-white fs-s" href="/index.html">Home</a></li>
+            <li class="my-1">
+              <a class="link text-white fs-s" href="/pages/product.html"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a class="link text-white fs-s" href="/pages/cart.html"
+                >My Cart</a
+              >
+            </li>
+            <li class="my-1">
+              <a class="link text-white fs-s" href="/pages/wishlist.html"
+                >My Wish List</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="fs-s fw-bold my-1 text-white">Connect with me</div>
+
+          <ul class="flex">
+            <li class="mx-1 translate-y">
+              <a
+                href="https://github.com/prathameshpcodes/"
+                class="fs-s link"
+                target="_blank"
+              >
+                <i class="fab fa-github text-black"></i>
+              </a>
+            </li>
+            <li class="mx-1 translate-y">
+              <a
+                href="https://www.linkedin.com/in/prathameshpcodes/"
+                target="_blank"
+                class="fs-s link"
+              >
+                <i class="fab fa-linkedin-in text-black"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+    <script src="/index.js"></script> 
+  </body>
+</html>

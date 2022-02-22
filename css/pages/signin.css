@@ -1,0 +1,15 @@
+.form-signin-container {
+  flex-direction: column;
+  margin: auto;
+  overflow: hidden;
+  width: 33rem;
+}
+
+.form-signup-link {
+  color: var(--color-black);
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+}
