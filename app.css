@@ -3,6 +3,7 @@
 @import url("/css/pages/product.css");
 @import url("/css/pages/cart.css");
 @import url("/css/pages/wishlist.css");
+@import url("/css/pages/signin.css");
 
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
@@ -25,4 +26,23 @@ html {
   cursor: pointer;
   flex-direction: column;
   width: 30rem;
+}
+
+.btn-add-to-cart {
+  background: var(--color-red-600);
+  margin: 0;
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.link {
+  color: var(--color-stone-500);
+
+  font-weight: bold;
+  position: relative;
+}
+
+.f-logofont {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: xx-large;
 }
