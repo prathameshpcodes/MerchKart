@@ -7,8 +7,8 @@
 MerchKart is an e-commerce platform for all anime & pop-culture  clothing , Shop & let us know.
 
 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8efba14e-0d6b-41d3-acb8-a96e74a89e9b/deploy-status)](https://app.netlify.com/sites/merchkart/deploys)
+![Stars](https://img.shields.io/github/stars/prathameshpcodes/MerchKart)(hhttps://app.netlify.com/sites/merchkart/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e609252-5780-4434-97a1-dfa72abb19eb/deploy-status)](https://app.netlify.com/sites/merchkart/deploys)
 
 </div>
 
