@@ -7,7 +7,7 @@
 MerchKart is an e-commerce platform for all anime & pop-culture  clothing , Shop & let us know.
 
 
-![Stars](https://img.shields.io/github/stars/prathameshpcodes/MerchKart)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8efba14e-0d6b-41d3-acb8-a96e74a89e9b/deploy-status)](https://app.netlify.com/sites/merchkart/deploys)
 
 </div>
@@ -27,7 +27,7 @@ These are the following screens of 🐱‍👤MerchKart
 
 ---
 
-## 👨‍💻 Connect with me
+## 📧 Connect with me
 
 
 <a href="https://www.linkedin.com/in/prathameshpcodes/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
